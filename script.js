@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
         textElement.className = 'draggable-text text-active';
         textElement.contentEditable = true;
         textElement.textContent = initialText;
-        textElement.style.color = textColor.value;
+        textElement.style.color = '#ffffff';
         textElement.style.fontSize = '24px';
         textElement.style.fontFamily = fonts[currentFontIndex];
         textElement.style.textAlign = alignments[currentAlignIndex].name;
